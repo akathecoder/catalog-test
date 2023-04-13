@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-catalog-test-2
+  description: A public demo repo to test backstage catalog feature using bitbucket.
+  tags:
+    - javascript
+    - expressjs
+    - server
+spec:
+  type: service
+  lifecycle: production
+  owner: devX2
